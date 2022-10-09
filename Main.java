@@ -18,7 +18,8 @@ public class Main {
 			sum = 0;
 			System.out.println("Guess what number the computer is thinking of");
 			System.out.println("Write a number between 0-100: ");
-			System.out.println(rand);
+			//För att se svaret direkt
+			//System.out.println(rand);
 			do {
 				input = sc.nextInt();
 				sum++;
